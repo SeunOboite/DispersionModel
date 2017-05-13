@@ -41,11 +41,11 @@ The model produces the following output:
 The region area is 230400 metres squared, contains 64 houses, 16 streets and 8 intersections.
 ```
 
-The concentration also provides mass for the flow in the x street and y street.
+The algorithm also provides mass for the flow in the x street and y street used for further analysis.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+For model evaluation, the current system implements several evaluation methodolgies developed for various disciplines such as the fractional bias (FB), normalized mean square error (NMSE), the geometric mean (MG), geometric variance (VG), the correlation coeeficient and fractional predictions (FAC2). The model provides to masses i.e the mass in the street and
 
 ### Break down into end to end tests
 
