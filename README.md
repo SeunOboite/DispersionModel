@@ -43,16 +43,21 @@ The region area is 230400 metres squared, contains 64 houses, 16 streets and 8 i
 
 The algorithm also provides mass for the flow in the x street and y street used for further analysis.
 
-## Running the tests
+## Evaluation
 
-For model evaluation, the current system implements several evaluation methodolgies developed for various disciplines such as the fractional bias (FB), normalized mean square error (NMSE), the geometric mean (MG), geometric variance (VG), the correlation coeeficient and fractional predictions (FAC2). The model provides to masses i.e the mass in the street and
+For model evaluation, the current system implements several evaluation methodolgies developed for various disciplines such as the fractional bias (FB), normalized mean square error (NMSE), the geometric mean (MG), geometric variance (VG), the correlation coeeficient and fractional predictions (FAC2). The model provides masses along the street X asis and along the Y axis.
 
-### Break down into end to end tests
+### Start
 
-Explain what these tests test and why
+There are two ways for the model evaluation, the first involves knowing the matrix dimensions and the latter involves getting the matrix dimensions then use it for model evaluation. If the matrix dimensions are unknown comment out the section that imports the .xlsx file. e.g
 
 ```
-Give an example
+% o_filename = 'ObservedPredictions.xlsx';
+% C_p = matrix_street_x; % model predictions 
+% C_o = xlsread(o_filename); % model observations
+% C__p = mean(C_p); % Average model predictions
+% C__o = mean(C_o); % Average model observations
+% q_c = 1; % stanfard deviation over the dataset
 ```
 
 ### And coding style tests
