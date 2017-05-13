@@ -66,14 +66,10 @@ function [FB, MG, NMSE, VG, R_C, FAC2, new_evaluation] = evaluation(C_o, C_p, C_
 new_evaluation = metholodgy.
 end
 ```
-Also changing the main file:
+Also changing the finalYearProject.m file:
 ```
 [FB, MG, NMSE, VG, R_C, FAC2, new_evaluation] = evaluation(C_o, C_p, C__o, C__p);
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
