@@ -36,11 +36,12 @@ What is the length of the model? 480
 What is the width of the model? 480
 ```
 
-The model produces the following output
+The model produces the following output:
 ```
 The region area is 230400 metres squared, contains 64 houses, 16 streets and 8 intersections.
-Concentration for the model at each point along X axis street.
 ```
+
+The concentration also provides mass for the flow in the x street and y street.
 
 ## Running the tests
 
