@@ -107,7 +107,8 @@ disp(['The region area is ', num2str(region_area), ' metres squared,', ...
     num2str( number_of_street), ' streets and ', ...
     num2str(number_of_intersection), ' intersections.']);
 
-% If the matrix to big for display
+% If the matrix is too big for display then trim it
+% and ask the user to view the workspace.
 if size(matrix_street_x,2) < 10  
     disp('Concentration for the model at each point along X axis street.');
     disp(matrix_street_x);
