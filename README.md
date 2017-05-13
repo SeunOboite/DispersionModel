@@ -1,6 +1,6 @@
 # Dispersion Model
 
-One Paragraph of project description goes here
+This is an interactive network dispersion model used to test against wind tunnel experiments, simulations for a fixed set of receptors and source position and examine responses to changes in the street geometry. 
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To get started download the latest version of Matlab (or any version greater than version 6). Follow the instructions on the software installation here for MAC Os and here for Windows.
 
 ```
 Give examples
