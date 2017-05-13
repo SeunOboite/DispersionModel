@@ -8,26 +8,32 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-To get started download the latest version of Matlab (or any version greater than version 6). Follow the instructions on the software installation here for MAC Os and here for Windows.
+To get started download the latest version of Matlab (or any version greater than version 6). Follow the instructions on the software installation [here](https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab) for MAC Os and [here (https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab) for Windows then download this repository.
 
 ```
-Give examples
+$ git clone git://github.com/iamlyeon/DispersionModel/
 ```
 
-### Installing
+### Running
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+To get started with modelling, you can run a simulation with preset values by clicking the 'run' action button on Matlab. The default values for the model is as seen below.
 
 ```
-Give the example
+% Set constant and initial variables
+[B, street_width] = deal(10); % [m]
+[street_height, H_0] = deal(5 * 15); % Height of the region above model 
+C = 1; % Concentration of pollutants [kg/m^3]
+c_0 = C; % Above sea level
+q = 1; % Pollutant source emission rate
+w_e = 2; % Mixing / entrainment speed
+alpha = 0.5;
+beta = 0.5;
 ```
-
-And repeat
+Then inputing the width and length of area to be modelled as requested by the command window:
 
 ```
-until finished
+What is the length of the model? 480
+What is the width of the model? 480
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
