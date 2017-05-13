@@ -63,7 +63,7 @@ There are two ways for the model evaluation, the first involves knowing the matr
 then set the dimesensions (rows and coumn) for the matrix in the .xlsx file. The code imports the matrix and provides the evalutation output. The evaluation methodologies are by no means exhaustive more evaluation techniques can be employed as by changing the evaluation.m file as seen below.
 ```
 function [FB, MG, NMSE, VG, R_C, FAC2, new_evaluation] = evaluation(C_o, C_p, C__o, C__p)
-new_evaluation = metholodgy.
+new_evaluation = metholodgy;
 end
 ```
 Also changing the finalYearProject.m file:
