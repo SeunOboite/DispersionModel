@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-To get started download the latest version of Matlab (or any version greater than version 6). Follow the instructions on the software installation [here](https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab) for MAC Os and [here (https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab) for Windows then download this repository.
+To get started download the latest version of Matlab (or any version greater than version 6). Follow the instructions on the software installation [here](https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab) for MAC Os and [here] (https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab) for Windows then download this repository.
 
 ```
 $ git clone git://github.com/iamlyeon/DispersionModel/
@@ -36,7 +36,11 @@ What is the length of the model? 480
 What is the width of the model? 480
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+The model produces the following output
+```
+The region area is 230400 metres squared, contains 64 houses, 16 streets and 8 intersections.
+Concentration for the model at each point along X axis street.
+```
 
 ## Running the tests
 
@@ -64,10 +68,10 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Matlab](https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab) - The web framework used
+* [Matlab](https://uk.mathworks.com/products/matlab.html?s_tid=hp_products_matlab) - The Language of Technical Computing
 
 
-## Contributing
+## Contributors
 
 Prof A.G Robins.
 
@@ -77,12 +81,12 @@ The latest version is version 0.1.
 
 ## Authors
 
-* **Seun Oboite** - *Initial work*
+**Seun Oboite**
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the [MIT License](LICENSE.md) and [Checkmate Concevoir free use license](https://www.checkmateconcevoir.com/terms/terms).
 
 ## Acknowledgments
 
