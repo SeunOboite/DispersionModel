@@ -91,9 +91,9 @@ The latest version is version 0.1.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE) and [Checkmate Concevoir](https://www.checkmateconcevoir.com/terms/terms) free use license.
+This project is licensed under the [MIT License](LICENSE) and [Vivus Hub](https://www.vivushub.com/) free use license.
 
 ## Acknowledgments
 
-* This was developed with strong motivation from the team at Checkmate Concevoir
+* This was developed with strong motivation from the team at Vivus Hud ltd
 
